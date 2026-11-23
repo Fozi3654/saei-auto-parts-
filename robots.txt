@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# نقشه سایت
+Sitemap: /sitemap.xml

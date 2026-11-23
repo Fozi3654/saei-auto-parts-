@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#071426">
+<meta name="description" content="جزئیات محصول در فروشگاه لوازم یدکی مبصر-ساعی">
+<meta name="format-detection" content="telephone=no">
+<title id="docTitle">جزئیات محصول | محمدرسول ساعی</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800;900&display=swap">
+
+<link rel="stylesheet" href="assets/css/main.css">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+<!-- نمادهای SVG -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></g></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.6 12.4a2 2 0 0 0 2 1.6h8.3a2 2 0 0 0 2-1.5L22 8H6"/><circle cx="9.5" cy="21" r="1.3"/><circle cx="18" cy="21" r="1.3"/></g></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9a4.8 4.8 0 0 1 9-3 4.8 4.8 0 0 1 9 3c-2 4.5-9 9-9 9z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/><path d="M20 15.5c-1.4 2.6-4.3 4.5-8 4.5" opacity=".55"/></g></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5A8.5 8.5 0 0 1 12.5 20H8l-5 2 2-5v-4.5A8.5 8.5 0 1 1 21 11.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/></g></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- هدر (مشابه صفحه اصلی) -->
+<header class="header" id="header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="محمدرسول ساعی، صفحه اصلی">
+      <span class="brand-mark" aria-hidden="true"><svg width="22" height="22"><use href="#i-gear"/></svg></span>
+      <span class="brand-name">محمدرسول ساعی<small>لوازم یدکی ایران‌خودرو و سایپا</small></span>
+    </a>
+    <nav class="menu" aria-label="منوی اصلی">
+      <a href="index.html">صفحه اصلی</a>
+      <a href="index.html#products">فروشگاه</a>
+      <a href="index.html#products" data-maker="ikco">قطعات ایران‌خودرو</a>
+      <a href="index.html#products" data-maker="saipa">قطعات سایپا</a>
+      <a href="index.html#makers">برندها</a>
+      <a href="index.html#guide">راهنمای خرید</a>
+      <a href="index.html#contact">تماس با ما</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="جست‌وجوی قطعه"><svg width="19" height="19"><use href="#i-search"/></svg></button>
+      <button class="icon-btn" id="themeToggle" aria-label="تغییر تم"></button>
+      <button class="icon-btn hide-sm" id="accountBtn" aria-label="ورود یا حساب کاربری"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></button>
+      <button class="icon-btn cart" id="cartBtn" aria-label="سبد خرید"><svg width="19" height="19"><use href="#i-cart"/></svg><span class="cart-badge" id="cartCount">۰</span></button>
+      <button class="icon-btn menu-toggle" id="menuBtn" aria-label="باز کردن منو"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Breadcrumb -->
+  <div class="wrap">
+    <nav class="breadcrumb" id="breadcrumb" aria-label="مسیر صفحه"></nav>
+  </div>
+
+  <!-- محصول پیدا نشد -->
+  <div class="pd-notfound" id="pdNotFound" hidden>
+    <div class="wrap">
+      <div class="empty">
+        <h3>محصول پیدا نشد</h3>
+        <p>آدرس اشتباه است یا محصول دیگر در سایت نیست.</p>
+        <div class="row">
+          <a class="btn btn-primary" href="index.html#products">بازگشت به فروشگاه</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- بخش اصلی جزئیات -->
+  <section class="pd-section" id="pdMain" hidden>
+    <div class="wrap">
+      <div class="pd-grid">
+
+        <!-- گالری -->
+        <div class="pd-gallery">
+          <div class="pd-main" id="pdMain-img">
+            <img id="pdMainImg" alt="" width="800" height="800">
+            <div class="pd-main-tags" id="pdTags"></div>
+            <button class="pd-zoom" id="pdZoom" type="button" aria-label="بزرگ‌نمایی">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>
+            </button>
+          </div>
+          <div class="pd-thumbs" id="pdThumbs" role="list"></div>
+        </div>
+
+        <!-- اطلاعات محصول -->
+        <div class="pd-info">
+          <div class="pd-top">
+            <span class="kicker" id="pdCat"></span>
+            <button class="icon-btn pd-share" id="pdShare" aria-label="اشتراک‌گذاری">
+              <svg width="18" height="18"><use href="#i-share"/></svg>
+            </button>
+          </div>
+          <h1 id="pdName"></h1>
+
+          <div class="pd-meta">
+            <div class="pd-rating" id="pdRating" aria-label="امتیاز محصول"></div>
+            <span class="pd-code">کد فنی: <span class="ltr" id="pdCode"></span> <button class="copy" id="pdCopy" type="button">کپی</button></span>
+          </div>
+
+          <div class="pd-price-box">
+            <div class="pd-price-row">
+              <span class="price" id="pdPrice"></span>
+              <span class="old" id="pdOld" hidden></span>
+              <span class="off" id="pdOff" hidden></span>
+            </div>
+            <span class="stock" id="pdStock"></span>
+          </div>
+
+          <!-- بررسی تطابق با خودرو -->
+          <div class="pd-compat">
+            <div class="pd-compat-head">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M6 17l1.5-5h9L18 17M8 12l1-3h6l1 3"/><circle cx="8" cy="18.5" r="1.5"/><circle cx="16" cy="18.5" r="1.5"/></svg>
+              <span>سازگاری با خودروی شما</span>
+            </div>
+            <div class="pd-compat-form">
+              <select id="pdcMaker"><option value="ikco">ایران‌خودرو</option><option value="saipa">سایپا</option></select>
+              <select id="pdcModel"></select>
+              <select id="pdcYear"></select>
+              <button class="btn btn-outline" type="button" id="pdCheck">بررسی سازگاری</button>
+            </div>
+            <div class="pd-compat-result" id="pdCompatResult" aria-live="polite" hidden></div>
+          </div>
+
+          <!-- دکمه‌ها -->
+          <div class="pd-buy">
+            <div class="qty">
+              <button type="button" id="pdQtyDec" aria-label="کاهش">−</button>
+              <span id="pdQty">۱</span>
+              <button type="button" id="pdQtyInc" aria-label="افزایش">+</button>
+            </div>
+            <button class="btn btn-primary pd-add" id="pdAdd" type="button"><svg width="17" height="17"><use href="#i-cart"/></svg>افزودن به سبد</button>
+            <button class="icon-btn pd-fav" id="pdFav" aria-label="افزودن به علاقه‌مندی"><svg width="20" height="20" fill="none"><use href="#i-heart"/></svg></button>
+          </div>
+
+          <a class="pd-consult" href="index.html#contact">
+            <svg width="18" height="18"><use href="#i-chat"/></svg>
+            مطمئن نیستید؟ با کارشناس ما مشورت کنید
+          </a>
+
+          <!-- اطلاعات ارسال و اعتماد -->
+          <div class="pd-ship">
+            <div class="pd-ship-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg>
+              <div><b>ارسال سریع تهران</b><p>سفارش تا ساعت ۱۴، همان روز</p></div>
+            </div>
+            <div class="pd-ship-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4z"/></svg>
+              <div><b>تضمین اصالت</b><p>مغایرت = بازگشت وجه کامل</p></div>
+            </div>
+            <div class="pd-ship-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="2"/><path d="M2.5 10h19M6 15h4"/></svg>
+              <div><b>پرداخت امن</b><p>درگاه بانکی معتبر</p></div>
+            </div>
+            <div class="pd-ship-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v4h4"/></svg>
+              <div><b>بازگشت ۷ روزه</b><p>در صورت باز نشدن بسته</p></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تب‌ها: توضیحات / مشخصات / تطابق / نظرات -->
+  <section class="block pd-tabs-section" id="pdTabs" hidden>
+    <div class="wrap">
+      <div class="pd-tabs">
+        <div class="pd-tabs-head" role="tablist" id="pdTabsHead">
+          <button class="pd-tab is-active" role="tab" aria-selected="true" data-tab="desc">توضیحات</button>
+          <button class="pd-tab" role="tab" aria-selected="false" data-tab="specs">مشخصات فنی</button>
+          <button class="pd-tab" role="tab" aria-selected="false" data-tab="fit">تطابق خودرو</button>
+          <button class="pd-tab" role="tab" aria-selected="false" data-tab="reviews">نظرات</button>
+        </div>
+        <div class="pd-tabs-body">
+          <div class="pd-panel is-active" data-panel="desc" id="pdPanelDesc"></div>
+          <div class="pd-panel" data-panel="specs" id="pdPanelSpecs"></div>
+          <div class="pd-panel" data-panel="fit" id="pdPanelFit"></div>
+          <div class="pd-panel" data-panel="reviews" id="pdPanelReviews"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- محصولات مرتبط -->
+  <section class="block" id="pdRelated" hidden>
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <p class="kicker">پیشنهاد ما</p>
+          <h2>محصولات مرتبط</h2>
+        </div>
+        <a class="more" href="index.html#products">همه محصولات<svg width="14" height="14"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="prods" id="pdRelatedGrid"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- فوتر -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html#top" class="brand"><span class="brand-mark" aria-hidden="true"><svg width="22" height="22"><use href="#i-gear"/></svg></span><span class="brand-name">محمدرسول ساعی</span></a>
+        <p class="foot-about">فروشگاه تخصصی قطعات اصلی ایران‌خودرو و سایپا. ارسال از انبار تهران به سراسر کشور با تضمین اصالت کالا.</p>
+        <div class="socials">
+          <a href="#" aria-label="اینستاگرام"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+          <a href="#" aria-label="تلگرام"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21 3 3 11l6 2 2 6 4-4 5 5z"/></svg></a>
+          <a href="#" aria-label="واتساپ"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 21l1.6-5A9 9 0 1 1 8 19.4L3 21z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>فروشگاه</h4>
+        <ul>
+          <li><a href="index.html#products" data-maker="ikco">قطعات ایران‌خودرو</a></li>
+          <li><a href="index.html#products" data-maker="saipa">قطعات سایپا</a></li>
+          <li><a href="index.html#cats">دسته‌بندی قطعات</a></li>
+          <li><a href="index.html#products">پرفروش‌ها</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>راهنما</h4>
+        <ul>
+          <li><a href="index.html#guide">راهنمای خرید</a></li>
+          <li><a href="#">روش‌های پرداخت و ارسال</a></li>
+          <li><a href="#">قوانین و مقررات</a></li>
+          <li><a href="#">شرایط بازگشت کالا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تماس با ما</h4>
+        <ul class="contact">
+          <li>تلفن: <b class="ltr">071-5251-3239</b></li>
+          <li>واتساپ: <b class="ltr">0917 907 0541</b></li>
+          <li>آدرس: اوز، خیابان شهید رجایی، دوراهی کوره، لوازم یدکی پیکان خودرو</li>
+          <li>شنبه تا چهارشنبه ۸-۱۳ و ۱۶-۲۰ · پنجشنبه ۸-۱۳</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>© ۱۴۰۵ محمدرسول ساعی. همه حقوق محفوظ است.</span>
+      <div class="seals" aria-label="جایگاه نمادهای اعتماد">
+        <div class="seal">جایگاه<br>اینماد</div>
+        <div class="seal">جایگاه<br>ساماندهی</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Overlays -->
+<div class="scrim" id="scrim"></div>
+<aside class="drawer nav" id="navDrawer" aria-label="منوی موبایل" aria-hidden="true">
+  <div class="drawer-head">منو<button class="icon-btn" data-close aria-label="بستن منو"><svg width="20" height="20"><use href="#i-x"/></svg></button></div>
+  <nav>
+    <a href="index.html">صفحه اصلی</a>
+    <a href="index.html#products">فروشگاه</a>
+    <a href="index.html#products" data-maker="ikco">قطعات ایران‌خودرو</a>
+    <a href="index.html#products" data-maker="saipa">قطعات سایپا</a>
+    <a href="index.html#makers">برندها</a>
+    <a href="index.html#guide">راهنمای خرید</a>
+    <a href="index.html#contact">تماس با ما</a>
+  </nav>
+</aside>
+<aside class="drawer cartd" id="cartDrawer" aria-label="سبد خرید" aria-hidden="true">
+  <div class="drawer-head"><span>سبد خرید <span id="cartHeadCount" style="color:var(--fg-muted);font-weight:500;font-size:14px"></span></span><button class="icon-btn" data-close aria-label="بستن سبد"><svg width="20" height="20"><use href="#i-x"/></svg></button></div>
+  <div class="cart-list" id="cartList"></div>
+  <div class="cart-foot" id="cartFoot"></div>
+</aside>
+
+<!-- Lightbox برای بزرگ‌نمایی تصویر -->
+<dialog class="pd-lightbox" id="pdLightbox" aria-label="بزرگ‌نمایی تصویر">
+  <button class="icon-btn pd-lb-close" id="pdLbClose" aria-label="بستن"><svg width="22" height="22"><use href="#i-x"/></svg></button>
+  <img id="pdLbImg" alt="">
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><span id="toastText"></span><button id="toastBtn" type="button">مشاهده سبد</button></div>
+
+<!-- اسکریپت‌ها -->
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/app-shared.js" defer></script>
+<script src="assets/js/product.js" defer></script>
+<script src="assets/js/enhance.js" defer></script>
+</body>
+</html>
